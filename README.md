@@ -4,7 +4,7 @@ JavaScript Assignment
 # About The Project
 JavaScript Assignment
 
-Link: 
+Link: https://diptoprodipto.github.io/JavaScript-Assignment-Prodipto/
 
 # Tools used
 - JavaScript
