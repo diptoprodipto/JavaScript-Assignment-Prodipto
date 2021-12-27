@@ -142,9 +142,9 @@ const outputHtml = (matches) => {
         const html = matches.map(
             match => `
 
-            <div class="card card-body">
+            <div onclick="insertVal(event)" class="card card-body">
                 
-                <p name="match" onclick="insertVal(event)" style="font-size: 14px; display: inline-block"><i class="fa fa-map-marker" style="display: inline-block"></i> ${match.Name}</p>
+                <p name="match" style="font-size: 14px; display: inline-block"><i class="fa fa-map-marker" style="display: inline-block"></i> ${match.Name}</p>
 
             </div>
 
