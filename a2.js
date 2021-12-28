@@ -62,6 +62,7 @@ rangeInput.forEach(input =>{
 
 const priceRangeSubmission = () =>{
     document.getElementById("priceRange").innerHTML = "Price range: "+document.getElementById("minRange").value+" - "+document.getElementById("maxRange").value
+    document.getElementById("priceButtonId").innerHTML = document.getElementById("minRange").value+" - "+document.getElementById("maxRange").value
 }
 
 
@@ -84,6 +85,7 @@ const decreaseValue = () => {
 
 const guestValueSubmission = () => {
     document.getElementById('guest').innerHTML = "Guests: "+document.getElementById('number').value
+    document.getElementById('guestButtonId').innerHTML = document.getElementById('number').value
 }
 
 
